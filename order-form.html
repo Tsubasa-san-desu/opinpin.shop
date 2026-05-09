@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Opinpin | Order Form</title>
+    <style>
+        body {
+            background: #050505; color: white; font-family: sans-serif;
+            display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;
+        }
+        .form-box {
+            background: rgba(255,255,255,0.1); padding: 40px; border-radius: 20px;
+            border: 1px solid #FFD700; width: 400px;
+        }
+        input {
+            width: 100%; padding: 10px; margin: 10px 0; background: #222; border: 1px solid #444; color: white;
+        }
+        button {
+            width: 100%; padding: 15px; background: #FFD700; border: none; font-weight: bold; cursor: pointer; margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-box">
+        <h2>Order Form</h2>
+        <p>お届け先情報を入力してください</p>
+        <input type="text" placeholder="お名前">
+        <input type="email" placeholder="メールアドレス">
+        <input type="text" placeholder="配送先住所">
+        <button onclick="alert('注文が完了しました！')">注文を確定する</button>
+    </div>
+</body>
+</html>
